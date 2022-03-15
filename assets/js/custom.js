@@ -204,7 +204,7 @@ jQuery(window).on('load', function() {
     }
 
     // set initial position bubble slider on first tab 
-    gsap.set(".filter-active", { x: targets[0].offsetLeft, width: targets[0].offsetWidth });
+    //gsap.set(".filter-active", { x: targets[0].offsetLeft, width: targets[0].offsetWidth });
     gsap.set(targets[0], { color: "#fff" });
 
     function doCoolStuff() {
